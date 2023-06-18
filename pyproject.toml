@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gpt-generated-pygame"
+version = "0.1.0"
+description = "An AI-genereated 2D pygame game"
+authors = ["Jean-Pierre Chauvel <jean.p.chauvel@gmail.com>"]
+license = "Unlicense"
+readme = "README.md"
+packages = [{include = "gpt_generated_pygame"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
